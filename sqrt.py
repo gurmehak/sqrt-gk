@@ -9,8 +9,7 @@ import math
 @click.command()
 @click.option("--n", type=int, required=True, help="Number for which the square root should be calculated")
 def main(n):
-    if n < 0:
-        raise Exception("Please enter positive number")
+    # hello testing
     print(math.sqrt(n))
 
 if __name__ == "__main__":
